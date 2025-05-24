@@ -6,9 +6,9 @@ on:
     branches: [main]
 
 env:
-  AZURE_CONTAINER_REGISTRY: refitapi
-  CONTAINER_APP_NAME: refitapi
-  RESOURCE_GROUP: youtube
+  AZURE_CONTAINER_REGISTRY: vacanziacrregistry
+  CONTAINER_APP_NAME: vacanzi-backend-app
+  RESOURCE_GROUP: vacanzi-job-portal-CSAi_group
 
 jobs:
   build-and-deploy:
